@@ -14,6 +14,8 @@
 
 仅支持 ESP32-S2 mini 一款主板，其他主板暂不支持。
 
+目前支持的游戏：朋友收集梦想生活、喷喷 3（Splatoon 3）。
+
 ## 这是什么
 
 SwitchC 是一块模拟 Switch Pro 手柄的自动绘画板子，插到 Switch 上，在《朋友收集梦想生活》里自动画图。
@@ -35,6 +37,7 @@ SwitchC 是一块模拟 Switch Pro 手柄的自动绘画板子，插到 Switch �
 - 任务管理：生成路径、上传任务、实时进度、异常提示
 - 安全暂停、保存数据、原点继续
 - 分享码：生成、导入、投稿
+- 支持游戏：朋友收集梦想生活、喷喷 3
 - 联网 / 离线模式、切换 WiFi、在线更新
 
 ## 快速开始
@@ -62,7 +65,7 @@ SwitchC 是一块模拟 Switch Pro 手柄的自动绘画板子，插到 Switch �
 ## 目录结构
 
 - docs/：完整使用教程、图片录入、画布调整、分享码、常见问题
-- firmware/：固件源码 SwitchC_S2_v0.2.0_big_first.ino（已删激活、自动主站上报，保留分享/投稿）及 0.2.0 固件说明
+- firmware/：固件源码 SwitchC_S2_v0.2.0.ino 及 0.2.0 固件说明
 - LICENSE：GPLv3
 - flash/：网站烧录说明 + esptool.py 离线烧录命令
 - hardware/：仅 ESP32-S2 mini 说明

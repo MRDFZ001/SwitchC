@@ -52,7 +52,7 @@ SwitchC 是一块模拟 Switch Pro 手柄的自动绘画板子，插到 Switch �
 3. 按住 0/BOOT，点一下 RST，不要松开 0/BOOT，再点“连接主板”，选 ESP32-S2 串口
 4. 点免费烧录，开始烧录后再松开 0/BOOT，烧完再拔线
 
-想折腾的人：源码在 firmware/ 目录，烧录命令见 flash/ 目录，也可以用 esptool.py 离线烧录。
+想折腾的：源码在 firmware/ 目录，烧录命令见 flash/ 目录，也可以用 esptool.py 离线烧录。
 
 ## 使用流程
 
@@ -64,7 +64,7 @@ SwitchC 是一块模拟 Switch Pro 手柄的自动绘画板子，插到 Switch �
 6. 开始绘图：不要碰手柄、不要让 Switch 休眠、不要拔线；要停先用安全暂停或保存数据
 
 <details>
-<summary><b>完整教程（点击展开，直接在本页看完）</b></summary>
+<summary><b>完整教程（点击展开）</b></summary>
 
 ### 1. 硬件准备
 
